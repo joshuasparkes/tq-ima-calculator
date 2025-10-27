@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex items-center justify-center px-6 py-6 md:px-8">
+      <div className="flex-1 flex items-center justify-center px-2 py-6 md:px-8">
         <div className="w-full max-w-3xl">
           {/* Header */}
           <div className="text-center mb-12 md:mb-6">
@@ -497,18 +497,18 @@ export default function Home() {
                     <div className="flex items-center justify-between">
                       <div className="text-center flex-1">
                         <p className="text-sm text-text-light mb-2">Current</p>
-                        <p className="text-3xl font-bold text-primary">{results.currentAutomationRate}%</p>
+                        <p className="text-xl md:text-3xl font-bold text-primary">{results.currentAutomationRate}%</p>
                       </div>
                       <div className="flex-shrink-0 mx-8">
                         <i className="fas fa-arrow-right text-accent text-2xl"></i>
                       </div>
                       <div className="text-center flex-1">
                         <p className="text-sm text-text-light mb-2">Projected</p>
-                        <p className="text-3xl font-bold text-accent">{results.projectedAutomationRate}%</p>
+                        <p className="text-xl md:text-3xl font-bold text-accent">{results.projectedAutomationRate}%</p>
                       </div>
                       <div className="flex-shrink-0 ml-8 text-center">
                         <p className="text-sm text-text-light mb-2">Gain</p>
-                        <p className="text-3xl font-bold text-green-600">+{results.automationGain}%</p>
+                        <p className="text-xl md:text-3xl font-bold text-green-600">+{results.automationGain}%</p>
                       </div>
                     </div>
                   </div>
