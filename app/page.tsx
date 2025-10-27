@@ -230,7 +230,7 @@ export default function Home() {
                       className="block text-lg font-semibold text-white mb-3"
                     >
                       <i className="fas fa-clock mr-2 text-accent"></i>
-                      Average Handle Time (minutes)
+                      Average Handle Time (minutes) 
                     </label>
                     <input
                       type="number"
