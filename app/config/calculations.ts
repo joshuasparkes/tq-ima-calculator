@@ -56,6 +56,10 @@ export const CalculationConfig = {
 
   // Calculation Methods
   calculations: {
+    productivity: null as any,
+    costs: null as any,
+    agenticLaunchpad: null as any,
+
     /**
      * Calculate annual hours saved per employee
      */
